@@ -15,7 +15,46 @@ body{
     padding-right: 10px;
     font-size: 40px;
 }
-    background: white;
 .custom-img {
     width: 300px;
     height: 300px;
+    object-fit: cover;
+}
+.jumbotron {
+    background-image: url(https://c4.wallpaperflare.com/wallpaper/564/256/1012/1920x1080-px-black-black-background-black-cats-cat-dark-selective-coloring-nature-fields-hd-art-wallpaper-preview.jpg);
+    background-size: cover;
+    background-position: center;
+    color: white;
+    height: 400px;
+    width: 100%;
+    padding: 0;
+}
+.row > * {
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+}
+.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+}
+.nav {
+    padding-left: 40px !important;
+}
+.card-img-top {
+    height: auto;
+    max-width: 100%;
+}
+.card {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+html {
+    scroll-behavior: smooth;
+}
+body {
+    padding-top: 40px;
+}
+.jumbotron {
+    font-family: 'Nova Round', sans-serif;
+    padding-right: 12%;
+}
