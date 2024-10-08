@@ -1,3 +1,5 @@
 body{
     background: white;
-}
+.custom-img {
+    width: 300px;
+    height: 300px;
