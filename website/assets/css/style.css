@@ -1,3 +1,21 @@
 body{
     background: #BDBDBD;
 }
+
+.tagline-custom {
+    float: right ;
+    padding-top: 30px;
+    
+}
+
+.tagline-custom > h1 {
+    font-size: 50px
+
+}
+
+.tagline-custom > p {
+
+    padding-top: 30px;
+    padding-right: 10px;
+    font-size: 40px;
+}
