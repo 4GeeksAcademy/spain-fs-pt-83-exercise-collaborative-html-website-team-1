@@ -1,5 +1,6 @@
 body{
     background: white;
+    margin-inline:12px
 }
 .tagline-custom {
     float: right ;
@@ -29,6 +30,7 @@ body{
     color: white;
     height: 400px;
     width: 100%;
+    height: 100%;
     padding: 0;
 }
 .row > * {
