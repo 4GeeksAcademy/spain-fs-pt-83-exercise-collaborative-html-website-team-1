@@ -4,6 +4,7 @@ body{
 .tagline-custom {
     float: right ;
     padding-top: 30px;  
+   
 }
 
 .tagline-custom > h1 {
@@ -13,7 +14,8 @@ body{
 .tagline-custom > p {
     padding-top: 30px;
     padding-right: 10px;
-    font-size: 40px;
+    font-size: clamp(1.5rem, 2.5vw, 4rem);
+   
 }
 .custom-img {
     width: 300px;
